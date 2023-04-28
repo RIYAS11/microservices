@@ -22,6 +22,7 @@ public class CalculationController {
     @PostMapping("/register")
     public ResponseEntity<String>  registerLotteryIds(@RequestBody List<Integer> lotteries){
 
+        System.out.println("ok");
         String message =  cService.lotteryToWinner(lotteries);
 
         System.out.println(lotteries);

@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.Winner</groupId>
-	<artifactId>Winner</artifactId>
+	<artifactId>winner</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Winner</name>
 	<description>Lottery Winner</description>
